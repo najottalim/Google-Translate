@@ -49,7 +49,7 @@ namespace Google_Translate_Windows_Form_App
             {
                 var queryParams = new Dictionary<string, string>()
                 {
-                    {"password", "001" },
+                    {"password", "Bu joyda API ni passwordi bo'lishi kerak" },
                     {"text", textBox1.Text.Trim()},
                     {"trTo", comboBox1.Text.Trim()},
                     {"trIn", comboBox2.Text.Trim() }
